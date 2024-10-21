@@ -1,0 +1,31 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar {
+    width: 100%;
+    background-color: #3d4d6a;
+ 
+    * {
+       color: white;
+    }
+ 
+    .btn {
+       border-radius: 10px;
+       background-color: none;
+    }
+ 
+    #navbarSupportedContent {
+       border: none;
+       outline: none;
+       box-shadow: none;
+ 
+       #Dashboard {
+          border: none;
+          outline: none;
+       }
+    }
+ }
